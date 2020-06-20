@@ -1,0 +1,76 @@
+/* mini.css   */
+
+/* mainmenu   add modultemplates  */
+#menutwolinks{
+font:12px/15px "Arial", sans-serif;
+margin: 0px 5px 20px 0px;
+padding: 0px;
+width: auto;
+background-color : transparent;
+float: left;
+}
+#menutwolinks ul, #menutwolinks li{
+display: inline;
+list-style: none;
+margin: 0px;
+padding: 0px;
+}
+#menutwolinks li a, #menutwolinks li a:hover, #menutwolinks li a:active {
+display: block;
+text-decoration: none;
+color: #336;
+background-color : transparent;
+margin: 0px 0px 1px 0px;
+padding: 2px 5px 2px 2px;
+border-right: 6px solid #336;
+text-align: right;
+width : 120px;
+font-weight: normal;
+}
+#menutwolinks li a:hover, #menutwolinks li a:active {
+border-right: 6px solid #99c;
+color: #7597BA;
+}
+
+/* usermenu add modultemplates  */
+
+#menutwolinksu{
+font:12px/15px "Arial", sans-serif;
+margin: 0px 5px 20px 0px;
+padding: 0px;
+width: auto;
+background-color : transparent;
+float: left;
+}
+#menutwolinksu ul, #menutwolinksu li{
+display: inline;
+list-style: none;
+margin: 0px;
+padding: 0px;
+}
+#menutwolinksu li a, #menutwolinksu li a:hover, #menutwolinksu li a:active {
+display: block;
+text-decoration: none;
+color: #336;
+background-color : transparent;
+margin: 0px 0px 1px 0px;
+padding: 2px 5px 2px 2px;
+border-right: 6px solid #336;
+text-align: right;
+width : 120px;
+font-weight: normal;
+}
+#menutwolinksu li a:hover, #menutwolinksu li a:active {
+border-right: 6px solid #99c;
+color: #7597BA;
+}
+
+.right1 p{margin:0px;padding:2px;}
+.right1 a:link{color:#336;text-decoration:underline;}
+.right1 a:visited{color:#336;text-decoration:underline;}
+.right1 a:hover{color:#99c;text-decoration:none;}
+
+
+
+fieldset {border:1px dotted #ccc;}
+legend {background:#fff;padding:3px;}
